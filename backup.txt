@@ -1,0 +1,125 @@
+using Cepedi.Domain.Entities;
+using Cepedi.Shareable.Requests;
+using Cepedi.Shareable.Responses;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Cepedi.WebApi.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class CursoController : ControllerBase
+    {
+        private readonly ILogger<CursoController> _logger;
+
+        public CursoController(ILogger<CursoController> logger)
+        {
+            _logger = logger;
+        }
+
+        [HttpGet("{idCurso}")]
+        public async Task<ActionResult<ObtemCursoResponse>> ConsultarCursoAsync([FromRoute] int idCurso)
+        {
+            try
+            {
+                // Aqui você precisa implementar a lógica para consultar o curso com o ID fornecido
+                // Vou usar um exemplo simples retornando um curso de exemplo
+                var curso = new CursoEntity
+                {
+                    Id = idCurso,
+                    Nome = "Curso de dotNET",
+                    Descricao = "Este é um curso de dotNET para AVANCADO",
+                    DataInicio = DateTime.Now,
+                    DataFim = DateTime.Now.AddMonths(3),
+                    Professor = new ProfessorEntity
+                    {
+                        Id = 1,
+                        Nome = "Professor dotNET",
+                        Especialidade = ".NET"
+                    }
+                };
+
+                var response = new ObtemCursoResponse(curso.Nome, $"De {curso.DataInicio.ToShortDateString()} até {curso.DataFim.ToShortDateString()}", curso.Professor.Nome);
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao consultar o curso.");
+                return StatusCode(500, "Ocorreu um erro ao consultar o curso.");
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<CursoEntity>> CriarCursoAsync([FromBody] CriarCursoRequest request)
+        {
+            try
+            {
+                // Aqui você precisa implementar a lógica para criar um novo curso com base nos dados fornecidos na solicitação (request)
+                // Vou usar um exemplo simples usando os dados fornecidos no corpo da solicitação
+
+                var novoCurso = new CursoEntity
+                {
+                    Id = request.IdCurso,
+                    Nome = request.Nome,
+                    Descricao = request.Descricao,
+                    DataInicio = request.DataInicio,
+                    DataFim = request.DataFim,
+                    Professor = new ProfessorEntity
+                    {
+                        Id = request.Professor.Id,
+                        Nome = request.Professor.Nome,
+                        Especialidade = request.Professor.Especialidade,
+                        // Como não há cursos fornecidos na solicitação, inicializamos com uma lista vazia
+                        Cursos = new List<CursoEntity>()
+                    }
+                };
+
+                // Supondo que você tenha lógica para salvar o novo curso em seu banco de dados
+                // Aqui você pode retornar um resultado Ok com o novo curso criado
+                return Ok(novoCurso);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao criar o curso.");
+                return StatusCode(500, "Ocorreu um erro ao criar o curso.");
+            }
+        }
+
+        [HttpPut("{idCurso}")]
+        public async Task<IActionResult> AtualizarCursoAsync([FromRoute] int idCurso, [FromBody] CursoEntity curso)
+        {
+            try
+            {
+                // Aqui você precisa implementar a lógica para atualizar o curso com o ID fornecido com base nos dados fornecidos na solicitação (curso)
+                // Supondo que você tenha lógica para atualizar o curso em seu banco de dados
+                // Aqui você pode retornar um resultado NoContent indicando que o curso foi atualizado com sucesso
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao atualizar o curso.");
+                return StatusCode(500, "Ocorreu um erro ao atualizar o curso.");
+            }
+        }
+
+        [HttpDelete("{idCurso}")]
+        public async Task<IActionResult> ExcluirCursoAsync([FromRoute] int idCurso)
+        {
+            try
+            {
+                // Aqui você precisa implementar a lógica para excluir o curso com o ID fornecido
+                // Supondo que você tenha lógica para excluir o curso em seu banco de dados
+                // Aqui você pode retornar um resultado NoContent indicando que o curso foi excluído com sucesso
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao excluir o curso.");
+                return StatusCode(500, "Ocorreu um erro ao excluir o curso.");
+            }
+        }
+    }
+}
