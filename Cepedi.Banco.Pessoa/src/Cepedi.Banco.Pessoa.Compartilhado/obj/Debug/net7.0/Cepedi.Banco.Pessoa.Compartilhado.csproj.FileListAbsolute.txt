@@ -1,0 +1,12 @@
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/bin/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.deps.json
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/bin/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.dll
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/bin/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.pdb
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.csproj.AssemblyReference.cache
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.AssemblyInfoInputs.cache
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.AssemblyInfo.cs
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.csproj.CoreCompileInputs.cache
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.dll
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/refint/Cepedi.Banco.Pessoa.Compartilhado.dll
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/Cepedi.Banco.Pessoa.Compartilhado.pdb
+/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/Debug/net7.0/ref/Cepedi.Banco.Pessoa.Compartilhado.dll

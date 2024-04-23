@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "tZW6bEUcC7aG+zkpGR2cG1S5YXFuYyUhZ7L0hfC4VZkH32YAeTQMiAHZA31/iTREScJqAG+Ypfq+ue6T9JW3eA==",
+  "success": true,
+  "projectFilePath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/Cepedi.Banco.Pessoa.Compartilhado.csproj",
+  "expectedPackageFiles": [
+    "/Users/alanprates/.nuget/packages/divino.operationresult/3.1.0/divino.operationresult.3.1.0.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/refit/7.0.0/refit.7.0.0.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/system.net.http.json/7.0.1/system.net.http.json.7.0.1.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/alanprates/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
