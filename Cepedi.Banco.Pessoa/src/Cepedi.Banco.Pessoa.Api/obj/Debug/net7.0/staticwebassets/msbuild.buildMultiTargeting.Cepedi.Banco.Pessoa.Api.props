@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/Cepedi.Banco.Pessoa.Api.props" />
-</Project>
