@@ -11,5 +11,4 @@ public class Endereco
     public string gia { get; set; }
     public string ddd { get; set; }
     public string siafi { get; set; }
-    public object Id { get; set; }
 }
