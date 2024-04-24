@@ -9928,32 +9928,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/alanprates/.nuget/packages/": {}
+    "C:\\Users\\alan_\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Api.Tests/Cepedi.Banco.Pessoa.Api.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Api.Tests\\Cepedi.Banco.Pessoa.Api.Tests.csproj",
       "projectName": "Cepedi.Banco.Pessoa.Api.Tests",
-      "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Api.Tests/Cepedi.Banco.Pessoa.Api.Tests.csproj",
-      "packagesPath": "/Users/alanprates/.nuget/packages/",
-      "outputPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Api.Tests/obj/",
+      "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Api.Tests\\Cepedi.Banco.Pessoa.Api.Tests.csproj",
+      "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Api.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Api/Cepedi.Banco.Pessoa.Api.csproj": {
-              "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Api/Cepedi.Banco.Pessoa.Api.csproj"
+            "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Api\\Cepedi.Banco.Pessoa.Api.csproj": {
+              "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Api\\Cepedi.Banco.Pessoa.Api.csproj"
             }
           }
         }
@@ -10013,7 +10020,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.408/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

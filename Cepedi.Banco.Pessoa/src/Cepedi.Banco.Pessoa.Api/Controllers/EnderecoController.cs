@@ -3,11 +3,8 @@ using Cepedi.Banco.Pessoa.Compartilhado.Responses;
 using Cepedi.Banco.Pessoa.Dados;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Net.Http;
 using System.Text.Json;
-using System.Threading.Tasks;
+using Cepedi.Banco.Pessoa.Dominio.Entidades;
 
 namespace Cepedi.Banco.Pessoa.Api.Controllers
 {
@@ -53,7 +50,7 @@ namespace Cepedi.Banco.Pessoa.Api.Controllers
                 {
                     string jsonResponse = await response.Content.ReadAsStringAsync();
                     
-                    var endereco = JsonSerializer.Deserialize<Endereco>(jsonResponse);
+                    var endereco = JsonSerializer.Deserialize<EnderecoEntity.Endereco>(jsonResponse);
                     
                     return Ok(endereco);
                 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Cepedi.Banco.Pessoa.Compartilhado.Enums;
+﻿using Cepedi.Banco.Pessoa.Compartilhado.Enums;
 using Cepedi.Banco.Pessoa.Compartilhado.Exceptions;
 using Cepedi.Compartilhado.Exceptions;
 using MediatR;

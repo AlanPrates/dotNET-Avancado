@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Dados.Tests/Cepedi.Banco.Pessoa.Data.Tests.csproj": {}
+    "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Dados.Tests\\Cepedi.Banco.Pessoa.Data.Tests.csproj": {}
   },
   "projects": {
-    "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/Cepedi.Banco.Pessoa.Compartilhado.csproj": {
+    "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Compartilhado\\Cepedi.Banco.Pessoa.Compartilhado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/Cepedi.Banco.Pessoa.Compartilhado.csproj",
+        "projectUniqueName": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Compartilhado\\Cepedi.Banco.Pessoa.Compartilhado.csproj",
         "projectName": "Cepedi.Banco.Pessoa.Compartilhado",
-        "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/Cepedi.Banco.Pessoa.Compartilhado.csproj",
-        "packagesPath": "/Users/alanprates/.nuget/packages/",
-        "outputPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/obj/",
+        "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Compartilhado\\Cepedi.Banco.Pessoa.Compartilhado.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Compartilhado\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,34 +77,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dados/Cepedi.Banco.Pessoa.Dados.csproj": {
+    "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dados\\Cepedi.Banco.Pessoa.Dados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dados/Cepedi.Banco.Pessoa.Dados.csproj",
+        "projectUniqueName": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dados\\Cepedi.Banco.Pessoa.Dados.csproj",
         "projectName": "Cepedi.Banco.Pessoa.Dados",
-        "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dados/Cepedi.Banco.Pessoa.Dados.csproj",
-        "packagesPath": "/Users/alanprates/.nuget/packages/",
-        "outputPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dados/obj/",
+        "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dados\\Cepedi.Banco.Pessoa.Dados.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dados\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/Cepedi.Banco.Pessoa.Dominio.csproj": {
-                "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/Cepedi.Banco.Pessoa.Dominio.csproj"
+              "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\Cepedi.Banco.Pessoa.Dominio.csproj": {
+                "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\Cepedi.Banco.Pessoa.Dominio.csproj"
               }
             }
           }
@@ -158,34 +170,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/Cepedi.Banco.Pessoa.Dominio.csproj": {
+    "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\Cepedi.Banco.Pessoa.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/Cepedi.Banco.Pessoa.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\Cepedi.Banco.Pessoa.Dominio.csproj",
         "projectName": "Cepedi.Banco.Pessoa.Dominio",
-        "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/Cepedi.Banco.Pessoa.Dominio.csproj",
-        "packagesPath": "/Users/alanprates/.nuget/packages/",
-        "outputPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/obj/",
+        "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\Cepedi.Banco.Pessoa.Dominio.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/Cepedi.Banco.Pessoa.Compartilhado.csproj": {
-                "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Compartilhado/Cepedi.Banco.Pessoa.Compartilhado.csproj"
+              "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Compartilhado\\Cepedi.Banco.Pessoa.Compartilhado.csproj": {
+                "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Compartilhado\\Cepedi.Banco.Pessoa.Compartilhado.csproj"
               }
             }
           }
@@ -225,37 +243,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Dados.Tests/Cepedi.Banco.Pessoa.Data.Tests.csproj": {
+    "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Dados.Tests\\Cepedi.Banco.Pessoa.Data.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Dados.Tests/Cepedi.Banco.Pessoa.Data.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Dados.Tests\\Cepedi.Banco.Pessoa.Data.Tests.csproj",
         "projectName": "Cepedi.Banco.Pessoa.Data.Tests",
-        "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Dados.Tests/Cepedi.Banco.Pessoa.Data.Tests.csproj",
-        "packagesPath": "/Users/alanprates/.nuget/packages/",
-        "outputPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Dados.Tests/obj/",
+        "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Dados.Tests\\Cepedi.Banco.Pessoa.Data.Tests.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\tests\\Cepedi.Banco.Pessoa.Dados.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dados/Cepedi.Banco.Pessoa.Dados.csproj": {
-                "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dados/Cepedi.Banco.Pessoa.Dados.csproj"
+              "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dados\\Cepedi.Banco.Pessoa.Dados.csproj": {
+                "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dados\\Cepedi.Banco.Pessoa.Dados.csproj"
               },
-              "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/Cepedi.Banco.Pessoa.Dominio.csproj": {
-                "projectPath": "/Users/alanprates/Documents/Cepedi.Banco.Pessoa/src/Cepedi.Banco.Pessoa.Dominio/Cepedi.Banco.Pessoa.Dominio.csproj"
+              "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\Cepedi.Banco.Pessoa.Dominio.csproj": {
+                "projectPath": "C:\\Users\\alan_\\OneDrive\\Documents\\GitHub\\dotNET-Avancado\\Cepedi.Banco.Pessoa\\src\\Cepedi.Banco.Pessoa.Dominio\\Cepedi.Banco.Pessoa.Dominio.csproj"
               }
             }
           }
@@ -319,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

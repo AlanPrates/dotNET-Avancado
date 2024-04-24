@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cepedi.Banco.Pessoa.Benchmark.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33171746ae91e1fe1ae365b6cfdf0ce64bb06e15")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cepedi.Banco.Pessoa.Benchmark.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cepedi.Banco.Pessoa.Benchmark.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

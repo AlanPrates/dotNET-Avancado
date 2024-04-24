@@ -9,4 +9,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Cepedi.Banco.Pessoa.Dominio.Tests
-build_property.ProjectDir = /Users/alanprates/Documents/Cepedi.Banco.Pessoa/tests/Cepedi.Banco.Pessoa.Dominio.Tests/
+build_property.ProjectDir = C:\Users\alan_\OneDrive\Documents\GitHub\dotNET-Avancado\Cepedi.Banco.Pessoa\tests\Cepedi.Banco.Pessoa.Dominio.Tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

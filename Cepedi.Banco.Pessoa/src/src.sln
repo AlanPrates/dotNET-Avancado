@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cepedi.Banco.Pessoa.Api", "Cepedi.Banco.Pessoa.Api\Cepedi.Banco.Pessoa.Api.csproj", "{17991A35-F2FC-4AF9-8334-5F146BC17022}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cepedi.Banco.Pessoa.Compartilhado", "Cepedi.Banco.Pessoa.Compartilhado\Cepedi.Banco.Pessoa.Compartilhado.csproj", "{C28322B3-E4C6-4925-915F-C284E299A297}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cepedi.Banco.Pessoa.Dados", "Cepedi.Banco.Pessoa.Dados\Cepedi.Banco.Pessoa.Dados.csproj", "{4E4F8E21-75C3-4745-A92F-8E34F723B4C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cepedi.Banco.Pessoa.Dominio", "Cepedi.Banco.Pessoa.Dominio\Cepedi.Banco.Pessoa.Dominio.csproj", "{EB32049E-9893-4310-8EAE-DF8ECBB5ACEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cepedi.Banco.Pessoa.IoC", "Cepedi.Banco.Pessoa.IoC\Cepedi.Banco.Pessoa.IoC.csproj", "{BBCBD931-0207-4FFF-B980-125C1B19132B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17991A35-F2FC-4AF9-8334-5F146BC17022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17991A35-F2FC-4AF9-8334-5F146BC17022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17991A35-F2FC-4AF9-8334-5F146BC17022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17991A35-F2FC-4AF9-8334-5F146BC17022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28322B3-E4C6-4925-915F-C284E299A297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28322B3-E4C6-4925-915F-C284E299A297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28322B3-E4C6-4925-915F-C284E299A297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28322B3-E4C6-4925-915F-C284E299A297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4F8E21-75C3-4745-A92F-8E34F723B4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4F8E21-75C3-4745-A92F-8E34F723B4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4F8E21-75C3-4745-A92F-8E34F723B4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4F8E21-75C3-4745-A92F-8E34F723B4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB32049E-9893-4310-8EAE-DF8ECBB5ACEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB32049E-9893-4310-8EAE-DF8ECBB5ACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB32049E-9893-4310-8EAE-DF8ECBB5ACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB32049E-9893-4310-8EAE-DF8ECBB5ACEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCBD931-0207-4FFF-B980-125C1B19132B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCBD931-0207-4FFF-B980-125C1B19132B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCBD931-0207-4FFF-B980-125C1B19132B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCBD931-0207-4FFF-B980-125C1B19132B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03B1595E-FA7A-48DF-A46E-469EBCC00561}
+	EndGlobalSection
+EndGlobal
