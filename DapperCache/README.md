@@ -24,7 +24,7 @@ INSERT INTO Usuarios (Nome, Email) VALUES ('João Silva', 'joao.silva@example.co
 INSERT INTO Usuarios (Nome, Email) VALUES ('Maria Oliveira', 'maria.oliveira@example.com');
 INSERT INTO Usuarios (Nome, Email) VALUES ('Carlos Souza', 'carlos.souza@example.com');
 INSERT INTO Usuarios (Nome, Email) VALUES ('Ana Costa', 'ana.costa@example.com');
-
+```
 <p align="center">
-  <img src="/DapperCache/print/Screenshot-Swagger UI.png width="700">
+  <img src="/DapperCache/print/Screenshot-Swagger UI.png" width="700">
 </p>
