@@ -1,0 +1,500 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Api/Cepedi.BancoCentral.PagamentoPix.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Api/Cepedi.BancoCentral.PagamentoPix.Api.csproj",
+        "projectName": "Cepedi.BancoCentral.PagamentoPix.Api",
+        "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Api/Cepedi.BancoCentral.PagamentoPix.Api.csproj",
+        "packagesPath": "/Users/alanprates/.nuget/packages/",
+        "outputPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.IoC/Cepedi.BancoCentral.PagamentoPix.IoC.csproj": {
+                "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.IoC/Cepedi.BancoCentral.PagamentoPix.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Divino.OperationResult": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Keycloak.AuthServices.Authentication": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Keycloak.AuthServices.Authorization": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Compartilhado/Cepedi.BancoCentral.PagamentoPix.Compartilhado.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Compartilhado/Cepedi.BancoCentral.PagamentoPix.Compartilhado.csproj",
+        "projectName": "Cepedi.BancoCentral.PagamentoPix.Compartilhado",
+        "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Compartilhado/Cepedi.BancoCentral.PagamentoPix.Compartilhado.csproj",
+        "packagesPath": "/Users/alanprates/.nuget/packages/",
+        "outputPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Compartilhado/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Divino.OperationResult": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dados/Cepedi.BancoCentral.PagamentoPix.Dados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dados/Cepedi.BancoCentral.PagamentoPix.Dados.csproj",
+        "projectName": "Cepedi.BancoCentral.PagamentoPix.Dados",
+        "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dados/Cepedi.BancoCentral.PagamentoPix.Dados.csproj",
+        "packagesPath": "/Users/alanprates/.nuget/packages/",
+        "outputPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dados/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/Cepedi.BancoCentral.PagamentoPix.Dominio.csproj": {
+                "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/Cepedi.BancoCentral.PagamentoPix.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/Cepedi.BancoCentral.PagamentoPix.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/Cepedi.BancoCentral.PagamentoPix.Dominio.csproj",
+        "projectName": "Cepedi.BancoCentral.PagamentoPix.Dominio",
+        "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/Cepedi.BancoCentral.PagamentoPix.Dominio.csproj",
+        "packagesPath": "/Users/alanprates/.nuget/packages/",
+        "outputPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Compartilhado/Cepedi.BancoCentral.PagamentoPix.Compartilhado.csproj": {
+                "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Compartilhado/Cepedi.BancoCentral.PagamentoPix.Compartilhado.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.IoC/Cepedi.BancoCentral.PagamentoPix.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.IoC/Cepedi.BancoCentral.PagamentoPix.IoC.csproj",
+        "projectName": "Cepedi.BancoCentral.PagamentoPix.IoC",
+        "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.IoC/Cepedi.BancoCentral.PagamentoPix.IoC.csproj",
+        "packagesPath": "/Users/alanprates/.nuget/packages/",
+        "outputPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dados/Cepedi.BancoCentral.PagamentoPix.Dados.csproj": {
+                "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dados/Cepedi.BancoCentral.PagamentoPix.Dados.csproj"
+              },
+              "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/Cepedi.BancoCentral.PagamentoPix.Dominio.csproj": {
+                "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Dominio/Cepedi.BancoCentral.PagamentoPix.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests.csproj",
+        "projectName": "Cepedi.BancoCentral.PagamentoPix.Api.Tests",
+        "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests.csproj",
+        "packagesPath": "/Users/alanprates/.nuget/packages/",
+        "outputPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/tests/Cepedi.BancoCentral.PagamentoPix.Api.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alanprates/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Api/Cepedi.BancoCentral.PagamentoPix.Api.csproj": {
+                "projectPath": "/Users/alanprates/dotNET-Avancado/Cepedi.BancoCentral.PagamentosPix/src/Cepedi.BancoCentral.PagamentoPix.Api/Cepedi.BancoCentral.PagamentoPix.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
